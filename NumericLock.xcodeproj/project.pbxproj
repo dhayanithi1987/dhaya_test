@@ -207,6 +207,8 @@
 				TargetAttributes = {
 					55117E2A1D16582500BA211C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VCYKQTQW5G;
+						ProvisioningStyle = Manual;
 					};
 					55117E431D16582500BA211C = {
 						CreatedOnToolsVersion = 7.3;
@@ -415,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCYKQTQW5G;
 				INFOPLIST_FILE = NumericLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.NumericLock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socialmedia.gustazosgo.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "690f16ab-ed4d-4b3b-b3ec-8f9f7caa38dc";
+				PROVISIONING_PROFILE_SPECIFIER = "Gustazos Go dev";
 			};
 			name = Debug;
 		};
@@ -426,10 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCYKQTQW5G;
 				INFOPLIST_FILE = NumericLock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.NumericLock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socialmedia.gustazosgo.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "690f16ab-ed4d-4b3b-b3ec-8f9f7caa38dc";
+				PROVISIONING_PROFILE_SPECIFIER = "Gustazos Go dev";
 			};
 			name = Release;
 		};
@@ -498,6 +506,7 @@
 				55117E5A1D16582500BA211C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55117E5B1D16582500BA211C /* Build configuration list for PBXNativeTarget "NumericLockTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				55117E5D1D16582500BA211C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55117E5E1D16582500BA211C /* Build configuration list for PBXNativeTarget "NumericLockUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				55117E601D16582500BA211C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
